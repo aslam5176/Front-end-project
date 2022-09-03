@@ -1,0 +1,279 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  padding: 0%;
+  margin: 0%;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.coverImage {
+  height: 100vh;
+  width: 100%;
+  background-color: transparent;
+  border: auto;
+  background-image: url(https://preview.colorlib.com/theme/glint/images/hero-bg.jpg.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.coverImage > .row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  height: 80px;
+  width: 100%;
+  background-color: transparent;
+  border: auto;
+  padding: 0px 30px;
+  box-sizing: border-box;
+}
+.coverImage > .row > img {
+  width: 80px;
+}
+.coverImage > .content {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+.coverImage > .content > .text {
+  text-align: left;
+  max-width: 550px;
+  margin: 100px 200px;
+  font-size: 18px;
+  font-weight: 600;
+  color: grey;
+}
+.coverImage > .content .sentence {
+  font-size: 45px;
+  font-weight: 600;
+  margin: 5px 0px;
+  color: white;
+}
+.coverImage > .content .classbtn {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  margin-left: 200px;
+  gap: 20px;
+}
+.coverImage > .content .classbtn button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  height: 54px;
+  width: 215px;
+  background-color: transparent;
+  border: auto;
+  padding: 0px 30px;
+  border-color: white;
+  color: white;
+  cursor: pointer;
+}
+.coverImage > .content .classbtn button:hover {
+  background-color: white;
+  color: black;
+  transition: 0.8s;
+}
+
+.row1 {
+  height: 100vh;
+  width: 100%;
+  background-color: transparent;
+  border: auto;
+  background-color: rgb(39, 208, 81);
+  margin: auto;
+}
+.row1 article {
+  padding: 150px;
+  text-align: center;
+  max-width: 1800px;
+  margin: auto;
+}
+.row1 article > h3 {
+  font-size: 20px;
+}
+.row1 article > h1 {
+  color: white;
+  font-weight: 600;
+  font-size: 80px;
+}
+.row1 article > hr {
+  margin-top: 40px;
+  height: auto;
+  width: 40%;
+  margin: auto;
+}
+.row1 article > p {
+  margin-top: 35px;
+  font-size: 20px;
+}
+.row1 .rowblock {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  margin-top: 40px;
+  gap: 100px;
+}
+.row1 .rowblock .count {
+  font-size: 70px;
+  font-weight: bold;
+  color: white;
+}
+.row1 .rowblock .count > h5 {
+  font-size: 20px;
+  font-weight: 600;
+  color: black;
+}
+
+.row2 {
+  height: 130vh;
+  width: 100%;
+  background-color: transparent;
+  border: auto;
+  background-color: white;
+  margin: auto;
+}
+.row2 article {
+  padding: 150px;
+  text-align: center;
+  max-width: 1800px;
+  margin: auto;
+}
+.row2 article > h3 {
+  color: rgb(13, 220, 13);
+  font-size: 20px;
+}
+.row2 article > h1 {
+  color: black;
+  font-size: 52px;
+  font-weight: 600;
+}
+.row2 article > hr {
+  width: 40%;
+  height: auto;
+  margin: auto;
+}
+.row2 section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+.row2 section .rowblock1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  margin-top: 60px;
+  gap: 50px;
+}
+.row2 section .rowblock1 .subhead > h3 {
+  margin: left;
+  color: black;
+  font-size: 30px;
+  font-weight: 600;
+}
+.row2 section .rowblock1 .subhead > p {
+  color: grey;
+  font-size: 17px;
+}
+.row2 section .rowblock2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  margin-top: 60px;
+  gap: 50px;
+}
+.row2 section .rowblock2 .subhead > h3 {
+  color: black;
+  font-size: 30px;
+  font-weight: 600;
+}
+.row2 section .rowblock2 .subhead > p {
+  color: grey;
+  font-size: 17px;
+}
+.row2 section .rowblock3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  margin-top: 60px;
+  margin: left;
+  gap: 50px;
+}
+.row2 section .rowblock3 .subhead > h3 {
+  color: black;
+  font-size: 30px;
+  font-weight: 600;
+}
+.row2 section .rowblock3 .subhead > p {
+  color: grey;
+  font-size: 17px;
+}
+
+.row3 {
+  height: 80vh;
+  width: 100%;
+  background-color: transparent;
+  border: auto;
+  background-color: black;
+  margin: auto;
+}
+.row3 .portfolio {
+  padding: 150px;
+  text-align: center;
+  max-width: 1800px;
+  background-color: black;
+  margin: auto;
+}
+.row3 .portfolio > h3 {
+  color: rgb(13, 220, 13);
+  font-size: 20px;
+  font-weight: 400;
+}
+.row3 .portfolio > h1 {
+  color: white;
+  font-size: 52px;
+  font-weight: 600;
+}
+.row3 .portfolio > hr {
+  width: 30%;
+  height: auto;
+  margin: auto;
+  margin-top: 40px;
+  color: rgb(101, 96, 90);
+}
+.row3 .image1 {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+.row3 .image2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+.row3 .image1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}/*# sourceMappingURL=style.css.map */

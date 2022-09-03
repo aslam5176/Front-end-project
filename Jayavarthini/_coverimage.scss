@@ -1,0 +1,58 @@
+@import "./mixins";
+
+@mixin Container1 {
+  .coverImage {
+    @include Box(100vh, 100%);
+    background-image: url(https://preview.colorlib.com/theme/glint/images/hero-bg.jpg.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    > .row {
+      @include Flex(space-between, center);
+      @include Box(80px, 100%);
+      padding: 0px 30px;
+      box-sizing: border-box;
+
+      > img {
+        width: 80px;
+      }
+    }
+    > .content {
+      @include Flex(null, null, column);
+
+      > .text {
+        text-align: left;
+        max-width: 550px;
+        margin: 100px 200px;
+        font-size: 18px;
+        font-weight: 600;
+        color: grey;
+      }
+      & .sentence {
+        font-size: 45px;
+        font-weight: 600;
+        margin: 5px 0px;
+        color: white;
+      }
+      .classbtn {
+        @include Flex(null, null, row);
+        margin-left: 200px;
+        gap: 20px;
+        & button {
+          @include Flex(center, center, row);
+          @include Box(54px, 215px, transparent);
+          padding: 0px 30px;
+          border-color: white;
+          color: white;
+          // font-weight: 200;
+          cursor: pointer;
+          &:hover {
+            background-color: white;
+            color: black;
+            transition: 0.8s;
+          }
+        }
+      }
+    }
+  }
+}

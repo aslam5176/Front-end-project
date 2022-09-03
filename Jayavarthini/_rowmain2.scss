@@ -1,0 +1,82 @@
+@import "./mixins";
+
+@mixin Container3 {
+  .row2 {
+    @include Box(130vh, 100%);
+    background-color: white;
+    margin: auto;
+    article {
+      padding: 150px;
+      text-align: center;
+      max-width: 1800px;
+      margin: auto;
+      > h3 {
+        color: rgb(13, 220, 13);
+        font-size: 20px;
+      }
+      > h1 {
+        color: black;
+        font-size: 52px;
+        font-weight: 600;
+      }
+      > hr {
+        width: 40%;
+        height: auto;
+        margin: auto;
+      }
+    }
+    section {
+      @include Flex(center, center, column);
+      .rowblock1 {
+        @include Flex(center, center, row);
+        margin-top: 60px;
+        gap: 50px;
+        .subhead {
+          > h3 {
+            margin: left;
+            color: black;
+            font-size: 30px;
+            font-weight: 600;
+          }
+          > p {
+            color: grey;
+            font-size: 17px;
+          }
+        }
+      }
+      .rowblock2 {
+        @include Flex(center, center, row);
+        margin-top: 60px;
+        gap: 50px;
+        .subhead {
+          > h3 {
+            color: black;
+            font-size: 30px;
+            font-weight: 600;
+          }
+          > p {
+            color: grey;
+            font-size: 17px;
+          }
+        }
+      }
+      .rowblock3 {
+        @include Flex(center, center, row);
+        margin-top: 60px;
+        margin: left;
+        gap: 50px;
+        .subhead {
+          > h3 {
+            color: black;
+            font-size: 30px;
+            font-weight: 600;
+          }
+          > p {
+            color: grey;
+            font-size: 17px;
+          }
+        }
+      }
+    }
+  }
+}
